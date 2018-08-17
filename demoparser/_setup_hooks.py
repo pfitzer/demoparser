@@ -14,7 +14,7 @@ class ProtobufBuilder(_build_py):
             '--python_out=.',
             '--proto_path=/usr/include/',
             '--proto_path=.',
-            *proto_files
+            proto_files
         ], check=True)
 
     def run(self):
